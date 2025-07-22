@@ -23,7 +23,7 @@ h1{
     height: 50px;
     border: none;
     border-radius: 6px; 
-    background-color: rgb(234, 166, 202);
+    background-color: white;
     text-align: right;
     font-size: 20px;
     margin-bottom: 16px;
@@ -43,11 +43,18 @@ button{
     height: 60px;
     border-radius: 6px;
     font-size: 20px;
+    background-color: white;
 }
 button:hover{
-    background-color: #DC143C;
+    background-color: #CD5C5C;
     cursor: pointer;
-    transition: 0.400ms;
+    transition: 0.300ms;
+}
+button:focus,
+button:active {
+  outline: none;
+  background-color: white;
+  box-shadow: none;
 }
 .btn-zero{
     grid-column: 1 / 3;

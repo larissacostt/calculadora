@@ -10,7 +10,6 @@ function insertToDisplay(value) {
   currentInput += value;
   display.value =  currentInput;
 }
-
 function insertOperator(op){
   if(currentInput === "") return
   num1 = parseFloat (currentInput);
