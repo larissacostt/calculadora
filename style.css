@@ -64,13 +64,6 @@ button:focus {
     outline: none;
     box-shadow: none;
 }
-
-button:focus,
-button:active {
-  outline: none;
-  background-color: white;
-  box-shadow: none;
-}
 .btn-zero{
     grid-column: 1 / 3;
 }
